@@ -28,6 +28,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    	.btn-contact {
+    		font-size:2.5em;
+    		font-weight: 800;
+			color:#233140;
+		}
+		.btn-contact:hover {
+			color:#296CB4;
+		}
+    </style>
 
 </head>
 
@@ -211,9 +221,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
+	                <div class="col-lg-8 col-lg-offset-2 text-center">
+	                    <a href="mailto:michael.ye@uwaterloo.ca" class="btn btn-lg btn-outline-inverse btn-contact">
+	                        <i class="fa fa-inbox"></i> Email
+	                    </a>
+	                </div>
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <!-- <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -249,7 +264,7 @@
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
